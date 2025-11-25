@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../img/login.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "League Spartan", sans-serif;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.login-box {
+    background-color: #1F2833;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 450px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#top-side{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.login-box > #top-side > a > img{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.login-box > #top-side > h2 {
+    color: white;
+    margin-top: 20px;
+}
+.login-box > #top-side > h2 > span {
+    color: #45A29E;
+}
+#center-side{
+    width: 100%;
+}
+.form{
+    text-align: center;
+}
+.password-group {
+    position: relative;
+}
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    transform: translateX(-150%);
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-top: 13px;
+}
+input[type="text"],
+input[type="password"] {
+    width: 350px;
+    height: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+}
+.forgot-password {
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    color: #45A29E;
+    text-decoration: none;
+    text-decoration: underline;
+}
+.forgot-password:hover{
+    color: white;
+}
+.login-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 370px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.login-btn:hover {
+    background-color: #66FCF1;
+    color: black;
+    
+}
+#bottomside{
+    width: 100%;
+}
+.other-login-options > p {
+    color: #fff;
+    margin: 20px 0;
+    font-size: 1rem;
+    height: auto;
+}
+.social-login > a{
+    text-decoration: none;
+}
+.social-login > a > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+    object-fit: cover;
+}
+.other-login-options {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+.line {
+    height: 2px;
+    width: 50px; 
+    background-color: #fff; 
+    margin: 0 10px; 
+}
+.register-text {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.register-text > a {
+    color: #45A29E;
+}
+.register-text > a:hover{
+    text-decoration: underline;
+}
+
+
+/*Modificar barra de scroll*/
+body::-webkit-scrollbar{
+    width:15px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #66FCF1;
+
+}
+body::-webkit-scrollbar-thumb:hover{
+    background-color: #45A29E;
+}

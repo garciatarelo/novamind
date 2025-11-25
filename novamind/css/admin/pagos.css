@@ -1,0 +1,27 @@
+
+h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card-body{
+    font-size: 1.5rem;
+}
+#card{
+    font-weight: 600;
+}
+#eliminar{
+    color: white;
+    background-color: #45A29E;
+}
+#eliminar:hover{
+    background-color: black;
+    color: white;
+}
+#editar{
+    color: white;
+    background-color: black;
+}
+#editar:hover{
+    background-color: #45A29E;
+    color: white;
+}

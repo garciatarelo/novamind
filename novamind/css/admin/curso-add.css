@@ -1,0 +1,13 @@
+
+h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#volver{
+    background-color: #45A29E;
+    color: white;
+}
+#volver:hover{
+    background-color: #378985;
+    color: white;
+}
